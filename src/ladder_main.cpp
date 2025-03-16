@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     // Load the dictionary of words from words.txt.
     set<string> word_list;
-    load_words(word_list, "words.txt");
+    load_words(word_list, "src/words.txt");
 
     // Prompt the user for a start word and an end word.
     string start_word, end_word;
